@@ -99,3 +99,5 @@ ggvis(ddat, transform_stack(),
   props(x = ~g1, y = ~value, fill = ~g2, fillOpacity := 0.5)) +
   dscale("x", "nominal", range = "width", padding = 0, points = FALSE) +
   mark_rect(props(y = ~ymin__, y2 = ~ymax__, width = band()))
+
+##testing
